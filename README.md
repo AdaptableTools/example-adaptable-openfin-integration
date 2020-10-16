@@ -26,6 +26,14 @@ $ npm run start-openfin
 
 This will start the actual OpenFin app, where you can see the AdapTable integration running.
 
+## Using the OpenFin Plugin
+
+You will see that this example includes the OpenFin plugin.  This gives the user access to the OpenFin only functionality in AdapTable.
+
+This includes 'Live Excel' - not how 'ItemCount' in the first row is continually incrementing.
+
+If you export 'All Data' to Excel from the OpenFin toolbar it will automatically open Excel (assuming you have a version on your machine) and the spreadsheet will update every 2 seconds as the Grid ticks.
+
 ## Licences
 
 A licence for AdapTable provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
