@@ -14,8 +14,8 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "typescript": "^3.8.3",
-    "@adaptabletools/adaptable": "7.0.14-canary.1",
-    "@adaptabletools/adaptable-plugin-openfin": "7.0.14-canary.1",
+    "@adaptabletools/adaptable": "7.0.17-canary.1",
+    "@adaptabletools/adaptable-plugin-openfin": "7.0.17-canary.1",
     "@ag-grid-community/all-modules": "^23.2.1",
     "@ag-grid-enterprise/all-modules": "^23.2.1"
   },
