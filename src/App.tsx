@@ -32,24 +32,28 @@ const columnDefs = [
   { field: 'OrderId', type: 'abColDefNumber' },
   {
     field: 'CompanyName',
-
+    editable: true,
     type: 'abColDefString',
   },
   {
     field: 'ContactName',
+    editable: true,
     type: 'abColDefString',
   },
   {
     field: 'Employee',
+    editable: true,
     type: 'abColDefString',
   },
 
   {
     field: 'ItemCount',
+    editable: true,
     type: 'abColDefNumber',
   },
   {
     field: 'InvoicedCost',
+    editable: true,
     type: 'abColDefNumber',
   },
 ];
