@@ -30,7 +30,7 @@ This will start the actual OpenFin app, where you can see the AdapTable integrat
 
 You will see that this example includes the OpenFin plugin.  This gives the user access to the OpenFin only functionality in AdapTable.
 
-This includes 'Live Excel' - not how 'ItemCount' in the first row is continually incrementing.
+This includes 'Live Excel' - note how 'ItemCount' in the first row is continually incrementing.
 
 If you export 'All Data' to Excel from the OpenFin toolbar it will automatically open Excel (assuming you have a version on your machine) and the spreadsheet will update every 2 seconds as the Grid ticks.
 
