@@ -80,6 +80,7 @@ let demoConfig: PredefinedConfig = {
 };
 
 const adaptableOptions: AdaptableOptions = {
+  licenseKey: "StartDate=2021-10-05|EndDate=2022-10-05|Owner=MAN_FAKE_NO_3|Type=development|DeveloperCount=1|Ref=AdaptableLicense|TS=1633448147985|C=1685504007,1777892887,1260976079,2212294583,3235258666,4222172194,932266694,108615771",
   primaryKey: 'OrderId',
   userName: 'Demo User',
   adaptableId: 'OpenFin Integration Demo',
@@ -90,7 +91,7 @@ const adaptableOptions: AdaptableOptions = {
     }),
   ],
 
-  vendorGrid: {
+  gridOptions: {
     columnDefs,
     rowData,
     columnTypes: {
@@ -101,28 +102,22 @@ const adaptableOptions: AdaptableOptions = {
       abColDefNumberArray: {},
       abColDefObject: {},
     },
-    // rowData: null,
-    modules: AllEnterpriseModules,
   },
+  modules: AllEnterpriseModules,
   predefinedConfig: demoConfig,
 };
 
 const startTicking = (adaptableApi: AdaptableApi) => {
   setInterval(() => {
-    const gridOptions = adaptableApi.gridApi.getVendorGrid() as GridOptions;
-    const firstRowNode = gridOptions.api!.getRowNode('11142');
-
+    const firstRowNode = adaptableApi.gridApi.getRowNodeForPrimaryKey('11142');
     const itemCount = firstRowNode.data.ItemCount + 1;
-
     firstRowNode.setDataValue('ItemCount', itemCount);
   }, 500);
 };
 
 const InitAdaptable = () => {
   Adaptable.init(adaptableOptions).then((adaptableApi: AdaptableApi) => {
-    const openfinApi: OpenFinApi = adaptableApi.pluginsApi.getPluginApi(
-      'openfin'
-    );
+    const openfinApi: OpenFinApi = adaptableApi.pluginsApi.getOpenFinPluginApi();
 
     console.log(openfinApi);
 
@@ -135,9 +130,9 @@ const InitAdaptable = () => {
           // add an extra timeout
           setTimeout(() => {
             // and then set the correct row data
-            adaptableApi.gridApi.getVendorGrid().api.setRowData(data);
+            adaptableApi.gridApi.setGridData(data);
 
-            startTicking(adaptableApi);
+            // startTicking(adaptableApi);
           }, 500);
         });
     });
