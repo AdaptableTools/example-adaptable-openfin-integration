@@ -6,9 +6,7 @@ The code is using TypeScript for convenience - but it could easily be just JavaS
 
 ## Installation
 
-NOTE: In order to be able to run `npm install`, you need to follow the [AdapTable installation instructions](https://github.com/AdaptableTools/adaptable/blob/master/packages/adaptable/README.md) - so you need to be logged into our private NPM registry.
-
-> If you do not have an Adpatable Login please contact support@adaptabletools.com
+NOTE: In order to be able to run `npm install`, you need to follow the [AdapTable installation instructions](https://docs.adaptabletools.com/learn/dev-guide-getting-started) - so you need to be logged into our private NPM registry.
 
 Run `npm install` (or `yarn`), depending on what tool you're using.
 
@@ -28,7 +26,7 @@ This will start the actual OpenFin app, where you can see the AdapTable integrat
 
 ## Using the OpenFin Plugin
 
-You will see that this example includes the OpenFin plugin.  This gives the user access to the OpenFin only functionality in AdapTable.
+You will see that this example includes the OpenFin plugin. This gives the user access to the OpenFin only functionality in AdapTable.
 
 This includes 'Live Excel' - note how 'ItemCount' in the first row is continually incrementing.
 
@@ -43,10 +41,6 @@ Licences can be purchased individually, for a team (minimum 30 end-users), for a
 We can make a trial licence available for a short period of time to allow you to try out AdapTable for yourself.
 
 Please contact [`sales@adaptabletools.com`](mailto:sales@adaptabletools.com) for more information.
-
-## Demo
-
-To see AdapTable in action visit our [Demo Site](https://demo.adaptabletools.com). Here you can see a large number of AdapTable demos each showing a different feature, function or option in AdapTable (using dummy data sets).
 
 ## Help
 
