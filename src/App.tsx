@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import '@ag-grid-community/all-modules/dist/styles/ag-grid.css';
