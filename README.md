@@ -6,7 +6,7 @@ The code is using TypeScript for convenience - but it could easily be just JavaS
 
 ## Installation
 
-NOTE: In order to be able to run `npm install`, you need to follow the [AdapTable installation instructions](https://docs.adaptabletools.com/learn/dev-guide-getting-started) - so you need to be logged into our private NPM registry.
+NOTE: In order to be able to run `npm install`, you need to follow the [AdapTable installation instructions](https://docs.adaptabletools.com/guide/dev-guide-installation) - so you need to be logged into our private NPM registry.
 
 Run `npm install` (or `yarn`), depending on what tool you're using.
 
@@ -32,24 +32,31 @@ This includes 'Live Excel' - note how 'ItemCount' in the first row is continuall
 
 If you export 'All Data' to Excel from the OpenFin toolbar it will automatically open Excel (assuming you have a version on your machine) and the spreadsheet will update every 2 seconds as the Grid ticks.
 
+
 ## Licences
 
-A licence for AdapTable provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
+An AdapTable Licence provides access to all product features as well as quarterly updates and enhancements through the lifetime of the licence, comprehensive support, and access to all 3rd party libraries.
 
-Licences can be purchased individually, for a team (minimum 30 end-users), for an organisation or for integration into software for onward sale.
+Licences can be purchased individually, for a team, for an organisation or for integration into software for onward sale.
 
-We can make a trial licence available for a short period of time to allow you to try out AdapTable for yourself.
+We can make a Trial Licence available for a short period of time to allow you to try out AdapTable for yourself.
 
 Please contact [`sales@adaptabletools.com`](mailto:sales@adaptabletools.com) for more information.
 
 ## Help
 
-Developers can learn how to access AdapTable programmatically at [AdapTable Documentation](https://docs.adaptabletools.com).
+Developers can learn how to access AdapTable programmatically at [AdapTable Documentation](https://docs.adaptabletools.com).  
+
+Here you can see a large number of AdapTable demos each showing a different feature, function or option in AdapTable.
+
+## Demo
+
+To see AdapTable in action visit our [Demo Site](https://www.adaptabletools.com/demos) which contains a few larger demos.
 
 ## More Information
 
-General information about Adaptable Tools is available at our [Website](http://www.adaptabletools.com)
-
+General information about Adaptable Tools is available at our [Website](http://www.adaptabletools.com) 
+ 
 ## Support
 
 For all support enquiries please email [`support@adaptabletools.com`](mailto:support@adaptabletools.com) or [raise a Support Ticket](https://adaptabletools.zendesk.com/hc/en-us/requests/new).
