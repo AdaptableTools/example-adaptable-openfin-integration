@@ -1,0 +1,13 @@
+.npmrc
+node_modules/
+.vscode/
+.next
+.awcache
+dist
+.env
+**/*.d.ts
+packages/adaptable/src/bundle-dependencies/
+**/adaptable.metamodel.ts
+.next
+package-lock.json
+parser.js
