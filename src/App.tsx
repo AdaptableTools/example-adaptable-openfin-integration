@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react';
 import './App.css';
 
-import '@ag-grid-community/core/dist/styles/ag-grid.css';
-import '@ag-grid-community/core/dist/styles/ag-theme-balham.css';
-import '@ag-grid-community/core/dist/styles/ag-theme-alpine.css';
-import '@ag-grid-community/core/dist/styles/ag-theme-balham-dark.css';
-import '@ag-grid-community/core/dist/styles/ag-theme-alpine-dark.css';
+import '@ag-grid-community/styles/ag-grid.css';
+import '@ag-grid-community/styles/ag-theme-balham.css';
+import '@ag-grid-community/styles/ag-theme-alpine.css';
 
 import '@adaptabletools/adaptable/index.css';
 import '@adaptabletools/adaptable/themes/dark.css';
