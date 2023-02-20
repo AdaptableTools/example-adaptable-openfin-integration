@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@adaptabletools/adaptable": "15.0.0",
-    "@adaptabletools/adaptable-plugin-openfin": "15.0.0",
+    "@adaptabletools/adaptable": "15.0.1",
+    "@adaptabletools/adaptable-plugin-openfin": "15.0.1",
     "@ag-grid-community/core": "29.0.0",
     "@ag-grid-community/styes": "29.0.0",
     "@ag-grid-community/client-side-row-model": "29.0.0",
